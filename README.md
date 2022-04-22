@@ -1,6 +1,6 @@
 # Porter-Stemmer
 
-To run - 
+Command To run - 
 
 `python PorterStemmer.py`
 
