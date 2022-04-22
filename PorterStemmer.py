@@ -215,4 +215,9 @@ class PorterStemmer:
 
 if __name__ == "__main__":
     ps = PorterStemmer()
-    print(ps.stem("bowdlerize"))
+    while True:
+        try:
+            s = input("Enter the word which you want to stem (Enter Empty String to Stop): ")
+            print(ps.stem(s))
+        except EOFError:
+            break
