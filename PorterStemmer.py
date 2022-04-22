@@ -1,6 +1,3 @@
-import re
-
-
 class PorterStemmer:
     vowels = ['a', 'e', 'i', 'o', 'u']
     def __init__(self):
